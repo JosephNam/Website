@@ -1,4 +1,4 @@
-@import url('http://fonts.googleapis.com/css?family=Raleway:500');
+@import url('http://fonts.googleapis.com/css?family=Raleway:300');
 
 .text-main {
 	font-family: 'Raleway', sans-serif;
@@ -13,4 +13,28 @@
 .text-jumbo {
 	font-family: 'Raleway', sans-serif;
 	font-size:xx-large;
+}
+
+.html-bg {
+	background: url('../spacenavbar.jpg') scroll;
+	background-position: center center;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size:cover;
+	background-color:#464646;
+	width:100%
+	height: auto;
+}
+.panel-white-transparent {
+	background-color: rgba(245,245,245,0.5);
+}
+#navbar ul{
+	margin:0;
+	padding: 0;
+	display:inline-block;
+	list-style-type: none;
+}
+#navbar li {
+	display:inline;
+	word-spacing: 185px;
 }
